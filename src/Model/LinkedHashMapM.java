@@ -72,5 +72,4 @@ public class LinkedHashMapM implements Map {
     public Set<Map.Entry<Object, Object>> entrySet() {
         return myLinkedHashMap.entrySet();
     }
-
 }

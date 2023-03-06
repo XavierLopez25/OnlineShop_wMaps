@@ -16,21 +16,11 @@ public class RW_File {
 
             String dataLine= scanner.nextLine();
             String[] fileTempData = dataLine.split("\\|\t");
-            dataMap.put(fileTempData[1], fileTempData[0]);
+            dataMap.put(fileTempData[1].trim(), fileTempData[0].trim());
 
         }
 
         scanner.close();
 
-        for (String keys: dataMap.keySet()) {
-            String key = keys.toString();
-            String value = dataMap.get(keys).toString();
-            System.out.println(key + ", pertenece a: " + value);
-        }
-
-
-
-
     }
-
 }
