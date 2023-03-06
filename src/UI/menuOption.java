@@ -3,8 +3,17 @@ package UI;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * The type Menu option.
+ */
 public class menuOption {
 
+    /**
+     * Map selection int.
+     *
+     * @param sc the sc
+     * @return the int
+     */
     public static int mapSelection(Scanner sc){
 
         int selection;
@@ -25,6 +34,12 @@ public class menuOption {
 
     }
 
+    /**
+     * Shop menu int.
+     *
+     * @param sc the sc
+     * @return the int
+     */
     public static int shopMenu(Scanner sc){
 
         int selection;

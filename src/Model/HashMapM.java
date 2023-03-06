@@ -4,10 +4,20 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
+
+/**
+ * The type Hash map m.
+ */
 public class HashMapM implements Map {
 
+    /**
+     * The My hash map.
+     */
     public HashMap<Object, Object> myHashMap;
 
+    /**
+     * Instantiates a new Hash map m.
+     */
     public HashMapM(){
         myHashMap = new HashMap<>();
     }

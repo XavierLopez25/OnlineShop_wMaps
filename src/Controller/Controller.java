@@ -3,8 +3,18 @@ package Controller;
 import UI.menuOption;
 import java.util.*;
 
+/**
+ * The type Controller.
+ */
 public class Controller {
 
+    /**
+     * Shop menu action.
+     *
+     * @param sc            the sc
+     * @param dataMap       the data map
+     * @param collectionMap the collection map
+     */
     public void shopMenuAction(Scanner sc, Map<String, String> dataMap, Map<String, String> collectionMap){
 
         int selection = menuOption.shopMenu(sc);

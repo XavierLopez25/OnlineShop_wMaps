@@ -5,10 +5,19 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
+/**
+ * The type Tree map m.
+ */
 public class TreeMapM implements Map {
 
+    /**
+     * The My tree map.
+     */
     public TreeMap<Object, Object> myTreeMap;
 
+    /**
+     * Instantiates a new Tree map m.
+     */
     public TreeMapM(){
         myTreeMap = new TreeMap<>();
     }

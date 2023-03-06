@@ -7,7 +7,16 @@ import java.io.FileNotFoundException;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * The type Driver program.
+ */
 public class DriverProgram {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     * @throws FileNotFoundException the file not found exception
+     */
     public static void main(String[] args) throws FileNotFoundException {
 
         FactoryMap factoryMap = new FactoryMap();

@@ -5,10 +5,19 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * The type Linked hash map m.
+ */
 public class LinkedHashMapM implements Map {
 
+    /**
+     * The My linked hash map.
+     */
     public LinkedHashMap<Object, Object> myLinkedHashMap;
 
+    /**
+     * Instantiates a new Linked hash map m.
+     */
     public LinkedHashMapM() {
         myLinkedHashMap = new LinkedHashMap<>();
     }
